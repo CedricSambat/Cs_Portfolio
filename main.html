@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/mobile.css">
     <link rel="stylesheet" href="/css/accordion.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- JavaScript Libraries (Minified) -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -58,8 +59,8 @@
     </section>
 
     <section id="Expertise">
-        <h1 class="txt_expertise">My Expertise</h1>
-        <div class="wrapper">
+        <h1 data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="txt_expertise">My Expertise</h1>
+        <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"class="wrapper">
             <div class="container">
                 <div class="title_expertise">
                     <h1>Front-End DEVELOPER</h1>
@@ -82,10 +83,10 @@
         <div class="container_mywork">
             <div class="wrapper_2">
                 <div class="headinf">
-                    <h1>My<br>work</h1>
-                    <p>maulpant Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat ipsum beatae sint cupiditate nulla tenetur similique quisquam hic. Voluptatum quaerat tempore soluta cumque eveniet perferendis nemo et hic tenetur?</p>
+                    <h1 data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">My<br>work</h1>
+                    <p data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">maulpant Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde placeat ipsum beatae sint cupiditate nulla tenetur similique quisquam hic. Voluptatum quaerat tempore soluta cumque eveniet perferendis nemo et hic tenetur?</p>
                 </div>
-                <div class="img_project"></div>
+                <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="img_project"></div>
             </div>
         </div>
     </section>
@@ -94,7 +95,7 @@
         <div class="projects">
             <div class="txt_subheader"><p>// Web development</p></div>
             <div class="grid-container">
-                <div class="grid-item">
+                <div data-aos="zoom-in" class="grid-item">
                     <div class="card">
                         <div class="content">
                             <p class="heading">Project 1
@@ -108,7 +109,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid-item">
+                <div data-aos="zoom-in" class="grid-item">
                     <div class="card">
                         <div class="content">
                             <p class="heading">Project 2
@@ -122,7 +123,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid-item">
+                <div data-aos="zoom-in" class="grid-item">
                     <div class="card">
                         <div class="content">
                             <p class="heading">Project 3
@@ -142,12 +143,12 @@
 
     <section id="experiance" class="slide4">
         <div class="wrapper_4">
-            <div class="subheader">
+            <div data-aos="zoom-out-left" class="subheader">
                 <h1>Professional<br>Experience</h1>
             </div>
             <div class="experiance">
                 <div class="container">
-                    <div class="accordion">
+                    <div data-aos="zoom-out-right" class="accordion">
                       <dl>
                         <dt><a class="accordionTitle" href="#">Test Simple Flat UI CSS Accordion 1</a></dt>
                         <dd class="accordionItem accordionItemCollapsed">
@@ -167,7 +168,7 @@
         </div>
     </section>
     <section id="Contact" class="slide5">
-        <div class="footer_container">
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="footer_container">
             <div class="footer_container1">
                 <div class="txt_title">
                     <h1>Available for select freelance opportunities</h1>
@@ -186,4 +187,9 @@
             <div class="footer_container2"></div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
 </html>
