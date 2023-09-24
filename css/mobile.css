@@ -4,23 +4,23 @@
     .container {
       padding: 10px;
     }
-  
+
     .header {
       padding: 10px;
     }
 }
-  
+
 /* Mobile styles */
 @media screen and (max-width: 480px) {
     .container {
       padding: 5px;
     }
-  
+
     .header {
       padding: 5px;
     }
 }
-  
+
 @media screen and (max-width: 768px) {
     nav .logo a {
       font-size: 3vh !important; /* Adjust font size for smaller screens */
@@ -32,90 +32,118 @@
 
 /* //firstpage */
 @media screen and (max-width: 768px) {
-    #my-background {
+  section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .projects {
+    height: 50rem !important;
+  }
 
-        & h1 {
-            font-size: 5vh !important;
-            font-family:'Poppins', sans-serif;
-        }
-    }
-    .vanta-canvas {
-        width: 100vw !important;
-    }
-
-    .txt_expertise {
+  #my-background {
+    & h1 {
         font-size: 5vh !important;
-        margin-bottom: 50px;
+        font-family:'Poppins', sans-serif;
     }
+    & p{
+      font-size: 2.5vh;
+    }
+  }
 
-    .text_exp h1 {
-        font-size: 2.5vh;
-    }
+  .vanta-canvas {
+      width: 100vw !important;
+  }
 
-    .title_expertise h1 {
-        font-size: 3vh;
-        &::before {
-            width: 46px !important;
-        }
-    }
-    .wrapper {
-        width: 90% !important;
-    }
+  .txt_expertise {
+      font-size: 5vh !important;
+      margin-bottom: 50px;
+  }
 
-    /* my work */
-    .container_mywork {
-        margin-top: 39px!important;
-        width: 22rem!important;
-        height: 46rem!important;
-    }
+  .text_exp h1 {
+      font-size: 2vh;
+  }
 
-    .img_project {
-        width: 57% !important;
-        height: 37% !important;
-        background-position: 27rem 118rem !important;
-        background-size: 110%;
-        margin-left: 60px;
-        margin-top: 70px;
-    }
+  .title_expertise h1 {
+      font-size: 3vh;
+      &::before {
+          width: 46px !important;
+      }
+  }
 
-    .wrapper_2 {
-        display: flex;
-        flex-direction: column;
-    }
+  .wrapper {
+      width: 90% !important;
+  }
 
-    .headinf{
-        & p{
-            width: 200%;
-        }
-    }
+  /* my work */
+  .container_mywork {
+      margin-top: 39px!important;
+      width: 22rem!important;
+      height: 46rem!important;
+  }
 
-    .card{
-        width: 265px !important;
-    }
+  .img_project {
+      width: 57% !important;
+      height: 37% !important;
+      background-position: 27rem 118rem !important;
+      background-size: 110%;
+      margin-left: 60px;
+  }
 
-    #experiance{
-        margin-top: 31rem;
-    }
+  .wrapper_2 {
+      display: flex;
+      flex-direction: column;
+  }
 
-    .subheader {
-        & h1 {
-            font-size: 7vh !important;
-        }
-    }
+  .headinf{
+      & h1{
+        font-size: 5vh;
+      }
 
-    .wrapper_4 {
-        justify-content: space-around !important;
-        width: 22rem !important;
-    }
-    .footer_container {
-        height: 65vh;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+      & p{
+          width: 200%;
+          font-size: 1.4vh;
+      }
+  }
 
-    .footer_container1 {
-        height: 100%;
-        width: 100%;
-    }
+  .heading {
+    font-size: 18px !important;
+  }
+
+  .para {
+    font-size: 10px !important;
+  }
+
+  .subheader {
+      & h1 {
+          font-size: 5vh !important;
+      }
+  }
+  .wrapper_4 {
+    height: 34rem;
+  }
+
+  .accordion dd {
+    font-size: 2vh !important;
+ }
+
+  .wrapper_4 {
+      justify-content: space-around !important;
+      width: 22rem !important;
+  }
+  
+  .footer_container {
+      height: 65vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer_container1 {
+      height: 100%;
+      width: 100%;
+  }
 };
