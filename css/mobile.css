@@ -4,23 +4,23 @@
     .container {
       padding: 10px;
     }
-  
+
     .header {
       padding: 10px;
     }
 }
-  
+
 /* Mobile styles */
 @media screen and (max-width: 480px) {
     .container {
       padding: 5px;
     }
-  
+
     .header {
       padding: 5px;
     }
 }
-  
+
 @media screen and (max-width: 768px) {
     nav .logo a {
       font-size: 3vh !important; /* Adjust font size for smaller screens */
@@ -102,6 +102,10 @@
             font-size: 7vh !important;
         }
     }
+
+    .accordion dd {
+      font-size: 1vh !important;
+  }
 
     .wrapper_4 {
         justify-content: space-around !important;
